@@ -5,4 +5,4 @@ Flat Notes flattens the Notes app by removing the paper texture and giving the h
 
 In the future, Flat Notes will also remove the letterpress text.
 
-![alt text](i.imgur.com/iWLCoN.png)
+![alt text](i.imgur.com/iWlCoN.png)
