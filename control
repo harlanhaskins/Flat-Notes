@@ -1,0 +1,9 @@
+Package: com.harlanhaskins.flatnotes
+Name: Flat Notes
+Depends: mobilesubstrate, firmware (>= 7.0)
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Flattens Notes and does away with the garish paper texture and letterpress effects. Also darkens the yellow text to make it actually readable.
+Maintainer: Harlan Haskins
+Author: Harlan Haskins
+Section: Tweaks
