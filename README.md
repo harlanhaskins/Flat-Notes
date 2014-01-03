@@ -7,4 +7,4 @@ In the future, Flat Notes will also remove the letterpress text.
 
 --------------------------
 
-![alt text](http://i.imgur.com/iWlC2oNl.png)
+![alt text](http://harlanhaskins.com/images/flatnotes.png)
