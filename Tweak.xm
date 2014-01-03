@@ -43,16 +43,3 @@
 }
 
 %end
-
-%hook NotesApp
-
-- (void) viewDidAppear:(BOOL)animated {
-    %orig;
-    
-    NSString *titleString = [self title];
-    
-    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"title Class" message:[NSString stringWithFormat:@"Title: %@", titleString] delegate:nil cancelButtonTitle:@"Okay" otherButtonTitles:nil];
-    [alert show];
-}
-
-%end
