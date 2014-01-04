@@ -84,3 +84,18 @@
 }
 
 %end
+
+@interface NoteContentLayer : UIView<UITextViewDelegate>
+
+@end
+
+%hook NoteContentLayer
+
+- (void) setContent:(id)arg1 isPlainText:(_Bool)arg2 isCJK:(_Bool)arg3 {
+    %orig(arg1, YES, arg3);
+    NSString *logString = [NSString stringWithFormat:@"content: %@ isPlainText: %@", arg1, arg2 ? @"YES" : @"NO"];
+    %log(logString);
+    
+}
+
+%end
